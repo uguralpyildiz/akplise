@@ -321,9 +321,7 @@ form textarea{
 --------------------------------------------------------------*/
 /* Navmenu - Desktop */
 @media (min-width: 1200px) {
-  .col-xl-4{
-    width: 50% !important;
-  }
+ 
   .navmenu {
     padding: 0;
   }
@@ -1487,7 +1485,7 @@ section,
   border: 1px solid #cccccc80;
   border-radius: 15px;
   height: 400px;
-  width: 400px;
+  
   overflow: hidden;
 }
 
