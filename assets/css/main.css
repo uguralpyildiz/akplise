@@ -974,7 +974,7 @@ section,
   position: absolute;
   z-index: -1;
   opacity: 1;
-  background-image: url("../../img/3.jpg");
+  background-image: url("../img/Cam_Balkon_05.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -1268,7 +1268,10 @@ section,
  width: 100%;
 }
 
-
+.floater .icon-r-card{
+  width: 48%;
+  margin: 5px;
+}
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
