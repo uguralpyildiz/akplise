@@ -167,10 +167,38 @@
   </header>
 
   <main class="main">
+<style>
+  .hero {
+    position: relative;
+    overflow: hidden;
+  }
 
+  .background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+  }
+
+  #hero .container {
+    
+    position: relative;
+    
+    z-index: 1;
+    /* Metni videonun üstünde görünür kılmak için */
+  }
+</style>
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
+ <video autoplay muted loop class="background-video">
+    <source src="SİTEYE.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
       <div class="container">
         <div class="row justify-content-start">
           <div class="col-lg-6 text-left" data-aos="fade-up" data-aos-delay="100">
