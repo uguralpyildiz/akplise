@@ -338,7 +338,7 @@ background-size: 22px 22px;">
 
 
     <div style="margin-bottom: 70px;" class="container">
-      <div class="about row gy-4">
+      <div class="about row gy-4" style="justify-content: center;">
         <div class="col-md-6 icon-box position-relative icon-r-card">
           <i class="bi bi-cpu"></i>
           <h4><a class="stretched-link">Plastik Enjeksiyon Makinesi</a></h4>
@@ -662,8 +662,8 @@ background-size: 22px 22px;">
       <!-- Initialize Swiper -->
       <script>
         var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 3,
-          spaceBetween: 30,
+          slidesPerView: 1,
+          spaceBetween: 10,
           pagination: {
             el: ".swiper-pagination",
             clickable: true,
@@ -671,6 +671,13 @@ background-size: 22px 22px;">
           navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
+          },
+          breakpoints: {
+            // 1200px'in altına inildiğinde sadece 1 slide gösterilsin
+            1200: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
           },
         });
       </script>

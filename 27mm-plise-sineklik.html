@@ -375,19 +375,26 @@ kapsül. Bu ürünü tulumba presinde ve otomatik makinalarda delici ve çakma k
           
               <!-- Initialize Swiper -->
               <script>
-                var swiper = new Swiper(".mySwiper", {
-                  slidesPerView: 3,
-                  spaceBetween: 30,
-                  pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                  },
-                  navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                  },
-                });
-              </script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          breakpoints: {
+            // 1200px'in altına inildiğinde sadece 1 slide gösterilsin
+            1200: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+          },
+        });
+      </script>
           
           
             </div>
@@ -629,19 +636,26 @@ kapsül. Bu ürünü tulumba presinde ve otomatik makinalarda delici ve çakma k
     
         <!-- Initialize Swiper -->
         <script>
-          var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 3,
-            spaceBetween: 30,
-            pagination: {
-              el: ".swiper-pagination",
-              clickable: true,
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          breakpoints: {
+            // 1200px'in altına inildiğinde sadece 1 slide gösterilsin
+            1200: {
+              slidesPerView: 3,
+              spaceBetween: 30,
             },
-            navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            },
-          });
-        </script>
+          },
+        });
+      </script>
     
     
       </div>
@@ -805,19 +819,26 @@ kapsül. Bu ürünü tulumba presinde ve otomatik makinalarda delici ve çakma k
 
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          breakpoints: {
+            // 1200px'in altına inildiğinde sadece 1 slide gösterilsin
+            1200: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+          },
+        });
+      </script>
 
 
   </div>
